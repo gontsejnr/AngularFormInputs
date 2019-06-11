@@ -1,0 +1,25 @@
+
+  Name:<br>
+  <input type="text" [(ngModel)]="firstName"><br>
+  Surname:<br>
+  <input type="text" [(ngModel)]="lastName"><br><br>
+  Gender: 
+  <select [(ngModel)]="gender">
+    <option value="">
+    <option value="male">Male
+    <option value="female">Female
+  </select><br>
+  Age:<br>
+  <input type="number" [(ngModel)]="age"><br>
+  Phone Number:<br>
+  <input type="number" [(ngModel)]="phoneNumber"><br><br>
+  Race:
+  <select [(ngModel)]="race">
+    <option value="">
+      <option value="black">Black
+        <option value="white">White
+          <option value="indian">Indian
+  </select>
+  <br><br>
+
+  <button (click)="onRegister()">Register</button>
